@@ -374,7 +374,7 @@ if __name__ == "__main__":
         "Ingrese una operacion aritmetica (+, -, *, /, %, pow(x,y), sqrt(x)): "
     )
     cadena_parseada = parse_input(cadena)
-    print(cadena_parseada)
+    # print(cadena_parseada)
 
     if "Error" in cadena_parseada:
         print(cadena_parseada)
@@ -401,7 +401,7 @@ if __name__ == "__main__":
         '''print("Pasos de la cinta:")
         pp(tm.tape_status)
         print("=" * 20)'''
-        print(f"Resultado: {result}")
+        # print(f"Resultado: {result}")
         print(f"Resultado como entero: {result.count('0')}")
         print("=" * 20)
 
